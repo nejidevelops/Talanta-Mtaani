@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #041c;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+b{
+    font-weight: 900;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    color: #041c;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .logo:hover{
+    color: rgb(99, 99, 42);
+}
+
+.navbar .navbarr{
+    margin-right: 5%;
+}
+
+.navbar .navbarr nav ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+/* .navbar.navbarr nav ul li{
+} */
+
+.navbar .navbarr nav ul li a{
+    text-decoration: none;
+    color: #041c;
+    margin-left: 80px;
+}
+
+.navbar .navbarr nav ul li a:hover{
+    color: rgb(99, 99, 42);
+}
+
+.container{
+    background: url(./img/isolated-1190889_1920.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.container .kam{
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 65%;
+}
